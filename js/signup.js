@@ -1,7 +1,7 @@
 /*
-    Signup Form Script
-    This script will load the state select list and validate the form before submission
-*/
+ Signup Form Script
+ This script will load the state select list and validate the form before submission
+ */
 
 document.addEventListener('DOMContentLoaded', function () {
     var form = document.forms['signup'];
@@ -117,7 +117,6 @@ document.addEventListener('DOMContentLoaded', function () {
             validateForm = false;
         }
 
-        console.log(age);
         if(!validateForm) {
             eventObject.preventDefault();
             eventObject.returnValue = false;
